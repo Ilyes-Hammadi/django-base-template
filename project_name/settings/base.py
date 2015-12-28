@@ -186,7 +186,7 @@ DEBUG_TOOLBAR_CONFIG = {
 # See:
 # http://stackoverflow.com/questions/20963856/improperlyconfigured-the-included-urlconf-project-urls-doesnt-have-any-patte/21005346#21005346
 # http://django-debug-toolbar.readthedocs.org/en/1.0/installation.html#explicit-setup
-#DEBUG_TOOLBAR_PATCH_SETTINGS = False
+# DEBUG_TOOLBAR_PATCH_SETTINGS = False
 
 # DEBUG_TOOLBAR_PANELS = (
 #     #'debug_toolbar_user_panel.panels.UserPanel',
@@ -202,7 +202,7 @@ DEBUG_TOOLBAR_CONFIG = {
 # )
 
 # Specify a custom user model to use
-#AUTH_USER_MODEL = 'accounts.MyUser'
+# AUTH_USER_MODEL = 'accounts.MyUser'
 
 FILE_UPLOAD_PERMISSIONS = 0o0664
 
@@ -218,13 +218,13 @@ DATABASES = {
         'PASSWORD': '',
         'HOST': '',
         'PORT': '',
-        #'OPTIONS': {
+        # 'OPTIONS': {
         #    'init_command': 'SET storage_engine=InnoDB',
         #    'charset' : 'utf8',
         #    'use_unicode' : True,
-        #},
-        #'TEST_CHARSET': 'utf8',
-        #'TEST_COLLATION': 'utf8_general_ci',
+        # },
+        # 'TEST_CHARSET': 'utf8',
+        # 'TEST_COLLATION': 'utf8_general_ci',
     },
     # 'slave': {
     #     ...
@@ -258,7 +258,7 @@ ALLOWED_HOSTS = []
 # This is an example method of getting the value from an environment setting.
 # Uncomment to use, and then make sure you set the SECRET_KEY environment variable.
 # This is good to use in production, and on services that support it such as Heroku.
-#SECRET_KEY = get_env_setting('SECRET_KEY')
+# SECRET_KEY = get_env_setting('SECRET_KEY')
 
 # Uncomment these to activate and customize Celery:
 # CELERY_ALWAYS_EAGER = False  # required to activate celeryd
@@ -272,10 +272,10 @@ ALLOWED_HOSTS = []
 INTERNAL_IPS = ('127.0.0.1')
 
 # Enable this option for memcached
-#CACHE_BACKEND= "memcached://127.0.0.1:11211/"
+# CACHE_BACKEND= "memcached://127.0.0.1:11211/"
 
 # Set this to true if you use a proxy that sets X-Forwarded-Host
-#USE_X_FORWARDED_HOST = False
+# USE_X_FORWARDED_HOST = False
 
 SERVER_EMAIL = "webmaster@example.com"
 DEFAULT_FROM_EMAIL = "webmaster@example.com"
@@ -298,7 +298,7 @@ LOGGING = {
 }
 
 # Common Event Format logging parameters
-#CEF_PRODUCT = '{{ project_name }}'
-#CEF_VENDOR = 'Your Company'
-#CEF_VERSION = '0'
-#CEF_DEVICE_VERSION = '0'
+# CEF_PRODUCT = '{{ project_name }}'
+# CEF_VENDOR = 'Your Company'
+# CEF_VERSION = '0'
+# CEF_DEVICE_VERSION = '0'

@@ -10,8 +10,9 @@ import posixpath
 from fabric.api import run, local, env, settings, cd, task
 from fabric.contrib.files import exists
 from fabric.operations import _prefix_commands, _prefix_env_vars
-#from fabric.decorators import runs_once
-#from fabric.context_managers import cd, lcd, settings, hide
+
+# from fabric.decorators import runs_once
+# from fabric.context_managers import cd, lcd, settings, hide
 
 # CHANGEME
 env.hosts = ['user@{{ project_name }}.example.com']
@@ -188,11 +189,11 @@ def sshagent_run(cmd):
     try:
         host, port = env.host_string.split(':')
         return local(
-            "ssh -p %s -A %s@%s '%s'" % (port, env.user, host, wrapped_cmd)
+                "ssh -p %s -A %s@%s '%s'" % (port, env.user, host, wrapped_cmd)
         )
     except ValueError:
         return local(
-            "ssh -A %s@%s '%s'" % (env.user, env.host_string, wrapped_cmd)
+                "ssh -A %s@%s '%s'" % (env.user, env.host_string, wrapped_cmd)
         )
 
 

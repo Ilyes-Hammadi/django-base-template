@@ -12,7 +12,6 @@
    less script command. You may want to switch the bootstrap.css to bootstrap.min.css
 
    ========================================================================== */
-
 @import url('bootstrap.css');
 @import url('bootstrap-responsive.css');
 @import url('app.css');

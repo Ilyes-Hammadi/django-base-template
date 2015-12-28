@@ -5,7 +5,6 @@ These settings overrides what's in settings/base.py
 
 from . import base
 
-
 # To extend any settings from settings/base.py here's an example.
 # If you don't need to extend any settings from base.py, you do not need
 # to import base above
@@ -19,13 +18,13 @@ DATABASES = {
         'PASSWORD': '',
         'HOST': '',
         'PORT': '',
-        #'OPTIONS': {
+        # 'OPTIONS': {
         #    'init_command': 'SET storage_engine=InnoDB',
         #    'charset' : 'utf8',
         #    'use_unicode' : True,
-        #},
-        #'TEST_CHARSET': 'utf8',
-        #'TEST_COLLATION': 'utf8_general_ci',
+        # },
+        # 'TEST_CHARSET': 'utf8',
+        # 'TEST_COLLATION': 'utf8_general_ci',
     },
     # 'slave': {
     #     ...
