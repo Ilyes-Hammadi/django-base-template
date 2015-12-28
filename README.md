@@ -1,5 +1,5 @@
 {% if False %}
-# Django 1.8 Base Template #
+# Django 1.9 Base Template #
 
 ## About ##
 
