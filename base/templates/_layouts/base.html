@@ -84,7 +84,7 @@
     <!-- scripts concatenated and minified via django-compressor -->
     {% compress js %}
         {% block js %}
-            <script src="{% static 'js/main.js' %}"></script>
+            <script src="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.2.0/js/bootstrap.min.js"></script>
         {% endblock js %}
     {% endcompress %}
     <!-- end scripts -->
