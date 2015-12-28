@@ -90,7 +90,7 @@ The libraries I am aware of that do not support Python 3:
 
 ## About ##
 
-Describe your project here.
+Describe your project here
 
 ## Prerequisites ##
 
