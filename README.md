@@ -13,7 +13,7 @@ This project template is designed for Django startproject template option. This 
 project template is designed for Django 1.8.
 
 As much as I could, all the code has been updated to use the any suggested layouts
-and functionality in Django 1.8.
+and functionality in Django 1.9.
 
 [playdoh]: https://github.com/mozilla/playdoh
 [twoscoops]: https://github.com/twoscoops/django-twoscoops-project
@@ -22,8 +22,8 @@ and functionality in Django 1.8.
 
 By default, this project template includes:
 
-A set of basic templates built from HTML5Boilerplate 4.1.0 and Twitter Bootstrap 3.2.0 (located in the
-base app, with css and javascript loaded from CloudFlare CDN by default).
+A set of basic templates built from HTML5Boilerplate 4.1.0 and Twitter Bootstrap 3.2.0 Paper (located in the
+base app, with css and javascript).
 
 Templating:
 
