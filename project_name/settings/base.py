@@ -50,7 +50,7 @@ INSTALLED_APPS = (
     'compressor',
 
     # Application base, containing global templates.
-    'base',
+    'base.apps.BaseConfig',
 
     # Local apps, referenced via appname
 )
